@@ -9,7 +9,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 # ROOT = Path(__file__).resolve().parent.parent
 print("=>",ROOT)
 BASE = "https://api.chess.com/pub/player"
-CONTACT = os.environ.get("CONTACT", "https://github.com/your/repo")
+CONTACT = os.environ.get("CONTACT", "https://github.com/your/my_chess_com")
 MODES = ("rapid", "blitz", "bullet")
 # Lower bounds. Your brief left 1100-1199 undefined; it joins Beginner here.
 TIERS = [(2200, "Expert Player"), (1800, "Advanced Player"),
