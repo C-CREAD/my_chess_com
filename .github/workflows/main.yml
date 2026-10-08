@@ -18,7 +18,6 @@ jobs:
       - run: pip install requests
       - run: python scripts/fetch_stats.py
         env: { CONTACT: "https://github.com/${{ github.repository }}" }
-      - run: ls -R site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: { path: site }
