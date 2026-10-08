@@ -1,8 +1,13 @@
 # my_chess_com
 Just testing the limitations of what I can and can't do with Chess.com's public API. ♟️🙂
 
-## C-CREAD 
+## Test Site
+Refer to this [site](https://c-cread.github.io/my_chess_com/) to view my profile and other popular chess players. 
 
+<img width="1043" height="787" alt="image" src="https://github.com/user-attachments/assets/eb837e45-c3e6-4f35-87c1-6bad68f64037" />
+
+## C-CREAD's Overview 
+Using basic API endpoints to get my stats from rapid, blitz, and bullet games. 
 ### Overview 
 | Rating | Wins ➕ | Losses ➖ | Draws 🟰 |
 | :-----------------: | :-----------------: | :-----------------: | :-----------------: | 
